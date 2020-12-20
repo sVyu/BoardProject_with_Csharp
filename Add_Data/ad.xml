@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Advertisements>
+	<Ad>
+		<ImageUrl>~/Images/bannon.jpg</ImageUrl>
+		<NavigateUrl></NavigateUrl>
+		<Keyword>Programming</Keyword>
+		<Impressions>60</Impressions>
+	</Ad>
+	<Ad>
+		<ImageUrl>~/Images/almousa.jpg</ImageUrl>
+		<NavigateUrl></NavigateUrl>
+		<Keyword>Programming</Keyword>
+		<Impressions>60</Impressions>
+	</Ad>
+	<Ad>
+		<ImageUrl>~/Images/priscilla.jpg</ImageUrl>
+		<NavigateUrl></NavigateUrl>
+		<Keyword>Programming</Keyword>
+		<Impressions>60</Impressions>
+	</Ad>
+	<Ad>
+		<ImageUrl>~/Images/sora-sagano.jpg</ImageUrl>
+		<NavigateUrl></NavigateUrl>
+		<Keyword>Programming</Keyword>
+		<Impressions>60</Impressions>
+	</Ad>
+</Advertisements>

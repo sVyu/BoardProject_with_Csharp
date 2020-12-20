@@ -1,0 +1,101 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Login.master.cs" Inherits="BoardProject.Login.Login" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <style>
+        #wrap {
+            width: 900px;
+            height: 600px;
+            margin: 0 auto;
+            position: relative;
+            border: 4px double #f78181;
+            overflow: hidden;
+        }
+            #wrap::after {
+                width: 100%;
+                height: 100%;
+                content: "";
+                background: url("/images/leone.png");
+                opacity: 0.2;
+                position: absolute;
+                top: 0;
+                left: 0;
+                z-index: -1;
+            }
+
+        #frmLogin{
+            width: 550px;
+            height: 300px;
+
+            left:310px;
+            top:250px;
+            position:absolute;
+        }
+        #frmRegister{
+            top:200px;
+            position:relative;
+        }
+
+        #frmRegister_view{
+            left: 80px;
+            position: absolute;
+        }
+
+        #frmRegister_table{
+            width: 500px;
+            height:300px;
+
+            left:350px;
+            top:30px;
+            position:absolute;
+        }
+
+        .txt1{
+            width:130px;
+        }
+
+        #frmIdCheck{
+            left: 310px;
+            top:230px;
+            position:absolute;
+        }
+
+        #frmQueCheck{
+            left: 310px;
+            top:250px;
+            position:absolute;
+        }
+
+        #frmChangePW{
+            left: 310px;
+            top:250px;
+            position:absolute;
+        }
+
+        #buttonToLogin{
+            right:3px;
+            float:right;
+            position:absolute;
+        }
+    </style>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div id="wrap">
+                <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+
+                </asp:ContentPlaceHolder>
+            
+                <div id="buttonToLogin">
+                     <asp:Button ID="btnToLogin" runat="server" Text="To LoginPage" OnClick="btnToLogin_Click"/>
+                </div>
+        </div>
+    </form>
+</body>
+</html>
